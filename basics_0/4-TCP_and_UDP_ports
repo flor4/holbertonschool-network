@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 # Displays listening TCP and UDP ports with PID and program name
 
-# netstat -tulpn is used to list all listening network ports and 
-# identify the programs using them, which is essential for troubleshooting,
-# security checks, and system monitoring.
-
 sudo netstat -tulpn
+sudo netstat -lxpn
