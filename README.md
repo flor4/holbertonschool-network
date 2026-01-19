@@ -1,9 +1,9 @@
-# 🌐 Introduction to Computer Networks
+#  Introduction to Computer Networks
 
 This document covers the fundamental concepts of computer networking.
 ---
 
-## 📚 Table of Contents
+##  Table of Contents
 
 1. OSI Model  
 2. Types of Networks  
@@ -28,9 +28,9 @@ This document covers the fundamental concepts of computer networking.
 
 ---
 
-## 🧱 1. OSI Model
+## 1. OSI Model
 
-### 🔍 What is the OSI Model?
+###  What is the OSI Model?
 The **OSI (Open Systems Interconnection) model** is a conceptual framework that explains **how data is transmitted from one computer to another over a network**.
 
 It helps to:
@@ -40,7 +40,7 @@ It helps to:
 
 ---
 
-### 📐 OSI Model Layers
+### OSI Model Layers
 
 The OSI model is composed of **7 layers**, each with a specific role:
 
@@ -58,54 +58,54 @@ Each layer communicates only with the layers directly above and below it.
 
 ---
 
-## 🏠 2. LAN (Local Area Network)
+## 2. LAN (Local Area Network)
 
-### 📌 What is a LAN?
+###  What is a LAN?
 A **LAN** is a network that connects devices within a **limited geographical area**.
 
-### 🧠 Typical Usage
+###  Typical Usage
 - Home networks
 - Offices
 - Schools
 - Small businesses
 
-### 📏 Typical Geographical Size
+###  Typical Geographical Size
 - One building
 - Campus
 - Few kilometers
 
 ---
 
-## 🌍 3. WAN (Wide Area Network)
+##  3. WAN (Wide Area Network)
 
-### 📌 What is a WAN?
+###  What is a WAN?
 A **WAN** is a network that spans a **large geographical area**.
 
-### 🧠 Typical Usage
+###  Typical Usage
 - Corporate networks
 - Connecting multiple LANs
 
-### 📏 Typical Geographical Size
+###  Typical Geographical Size
 - Cities
 - Countries
 - Continents
 
-➡️ **The Internet is the largest WAN in the world**
+**The Internet is the largest WAN in the world**
 
 ---
 
-## 🌐 4. Internet
+##  4. Internet
 
-### 📌 What is the Internet?
+###  What is the Internet?
 The **Internet** is a global network of interconnected networks that use the **IP protocol**.
 
 It allows billions of devices worldwide to communicate.
 
 ---
 
-## 🆔 5. MAC Address
+##  5. MAC Address
 
-### 📌 What is a MAC Address?
+###  What is a MAC Address?
 A **MAC (Media Access Control) address** is a **unique identifier** assigned to a network interface.
 
 - Format: `AA:BB:CC:DD:EE:FF`
@@ -115,36 +115,36 @@ It identifies a device on a **local network**.
 
 ---
 
-## 🌐 6. IP Address
+##  6. IP Address
 
-### 📌 What is an IP Address?
+###  What is an IP Address?
 An **IP address** is a logical identifier assigned to a device on a network using the IP protocol.
 
 ---
 
-### 🔄 Types of IP Addresses
+###  Types of IP Addresses
 
-#### 🔐 Private IP Address
+####  Private IP Address
 - Used inside a local network
 - Not reachable from the Internet
 - Common ranges:
   - `192.168.x.x`
   - `10.x.x.x`
 
-#### 🌍 Public IP Address
+####  Public IP Address
 - Accessible from the Internet
 - Assigned by an Internet Service Provider (ISP)
 
 ---
 
-## 🔢 7. IPv4 and IPv6
+##  7. IPv4 and IPv6
 
-### 📘 IPv4
+###  IPv4
 - Format: `192.168.1.1`
 - 32-bit address
 - Limited number of addresses
 
-### 📗 IPv6
+###  IPv6
 - Format: `2001:db8::1`
 - 128-bit address
 - Created to solve IPv4 address exhaustion
@@ -152,9 +152,9 @@ An **IP address** is a logical identifier assigned to a device on a network usin
 
 ---
 
-## 🖥️ 8. Localhost
+##  8. Localhost
 
-### 📌 What is Localhost?
+###  What is Localhost?
 **Localhost** refers to the **local machine itself**.
 
 - IPv4: `127.0.0.1`
@@ -164,26 +164,26 @@ It is commonly used for testing services locally.
 
 ---
 
-## 🧩 9. Subnet
+##  9. Subnet
 
-### 📌 What is a Subnet?
+###  What is a Subnet?
 A **subnet (subnetwork)** is a logical subdivision of an IP network.
 
-### 🎯 Purpose of Subnetting
+###  Purpose of Subnetting
 - Efficient IP address usage
 - Improved network security
 - Reduced network traffic
 
 ---
 
-## 🚚 10. TCP and UDP
+##  10. TCP and UDP
 
-### 📌 Transport Layer Protocols
+###  Transport Layer Protocols
 **TCP and UDP** are the two main data transfer protocols at the **Transport Layer (Layer 4)** of the OSI model.
 
 ---
 
-### 🔐 TCP (Transmission Control Protocol)
+###  TCP (Transmission Control Protocol)
 - Reliable
 - Connection-oriented
 - Ensures data delivery and order
@@ -196,7 +196,7 @@ Used for:
 
 ---
 
-### ⚡ UDP (User Datagram Protocol)
+###  UDP (User Datagram Protocol)
 - Unreliable
 - Connectionless
 - Faster than TCP
@@ -209,7 +209,7 @@ Used for:
 
 ---
 
-### 🔍 Main Difference Between TCP and UDP
+###  Main Difference Between TCP and UDP
 
 | TCP | UDP |
 |----|----|
@@ -219,14 +219,14 @@ Used for:
 
 ---
 
-## 🚪 11. Ports
+##  11. Ports
 
-### 📌 What is a Port?
+###  What is a Port?
 A **port** identifies a specific service or application running on a device.
 
 - Range: `0 – 65535`
 
-### 🧠 Common Ports to Memorize
+###  Common Ports to Memorize
 
 | Service | Port |
 |-------|------|
@@ -236,21 +236,21 @@ A **port** identifies a specific service or application running on a device.
 
 ---
 
-## 🧪 12. Ping and ICMP
+##  12. Ping and ICMP
 
-### 📌 Ping
+###  Ping
 `ping` is a network utility used to **check if a device is reachable**.
 
-### 📡 ICMP
+###  ICMP
 **ICMP (Internet Control Message Protocol)** is the protocol used by `ping`.
 
 It helps diagnose network connectivity issues.
 
 ---
 
-## 🛠️ 13. Network Commands
+##  13. Network Commands
 
-### 🔍 ping
+###  ping
 ```bash
 ping google.com
 ````
@@ -259,7 +259,7 @@ Checks network connectivity.
 
 ---
 
-### 📊 netstat
+###  netstat
 
 * Displays active network connections
 * Shows listening ports
@@ -267,7 +267,7 @@ Checks network connectivity.
 
 ---
 
-## ✅ Key Concepts Summary
+##  Key Concepts Summary
 
 * The OSI model has **7 layers**
 * LAN = local network
@@ -281,4 +281,3 @@ Checks network connectivity.
 * `ping` is commonly used to test network connectivity
 
 ---
-
